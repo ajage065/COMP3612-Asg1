@@ -1,0 +1,141 @@
+body, div, section, ul, li, header, footer, figure, figcaption, p{
+	margin: 0;
+	padding: 0;
+}
+a:link{
+	color: #51279B;
+}
+a:hover{
+	color: #8662C7;
+}
+figcaption h3{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0.5rem;
+}
+figcaption p{
+	padding: 0.5rem;
+}
+figure{
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	/*source: getcssscan.com/css-box-shadow-examples #33*/
+	margin: 1rem 17rem;
+	width: 800px;
+}
+footer{
+	background-color: #E22C39;
+	text-align: right;
+}
+footer li{
+	display: inline-block;
+	padding: 0.5rem;
+	padding-bottom: 0;
+}
+footer p{
+	padding: 0.5rem;
+	text-align: center;
+}
+header{
+	background-image: url("images/logo.png");
+	background-repeat: no-repeat;
+}
+header li{
+	display: inline-block;
+	margin: 1.3rem;
+	margin-right: 1rem;
+}
+header li:first-child{
+	margin-left: 6rem;
+}
+header a:link{
+	text-decoration: none;
+}
+.banner{
+	background-image: url("images/florence.jpg");
+	background-repeat: no-repeat;
+	padding-bottom: 17rem;
+}
+.banner img{
+	display: none;
+}
+.banner div{
+	margin: 8rem 0 0 6rem;
+}
+.banner h1{
+	color: white;
+	font-size: 48px;
+}
+.banner p{
+	color: white;
+	font-size: 24px;
+	margin: 1rem 0;
+}
+.banner div.button{
+	margin: 0;
+}
+.button a{
+	background-color: #51279B;
+	border-radius: 4px;
+	color: white;
+	padding: 1rem;
+	text-decoration: none;
+}
+.button a:hover{
+	background-color: #8662C7;
+}
+.card{
+	background-color: white;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	/*source: getcssscan.com/css-box-shadow-examples #33*/
+	display: inline-block;
+}
+.card div{
+	display: inline-block;
+	font-size: 12px;
+	float: right;
+	margin: 0.5rem;
+}
+.card h2{
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0.5rem;
+}
+.card p{
+	font-size: 12px;
+	margin: 0 0.5rem;
+}
+.card ul{
+	display: inline-block;
+}
+.card-count li{
+	background-repeat: no-repeat;
+	display: inline-block;
+	font-size: 10px;
+	padding-left: 1rem;
+	margin: 0.75rem 0 0.5rem 0.75rem;
+}
+.comment{
+	background-image: url("images/comment.svg");
+}
+.destinations{
+	margin: 1rem;
+}
+.like{
+	background-image: url("images/heart.svg");
+}
+.page-count{
+	float: right;
+}
+.page-count li{
+	background-repeat: no-repeat;
+	display: inline-block;
+	font-size: 14px;
+	margin: 0.5rem;
+	padding-left: 1.5rem;
+}
+.related li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 0 1rem 0.5rem;
+}
